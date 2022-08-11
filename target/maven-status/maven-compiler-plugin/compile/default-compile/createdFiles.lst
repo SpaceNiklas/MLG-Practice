@@ -1,0 +1,10 @@
+com/spaceniklas/mlg/commands/MlgCommand.class
+com/spaceniklas/mlg/utils/MlgUtil.class
+com/spaceniklas/mlg/menus/DecisionMenu.class
+com/spaceniklas/mlg/Mlg.class
+com/spaceniklas/mlg/menus/AddMenu.class
+com/spaceniklas/mlg/commands/MlgCommandTab.class
+com/spaceniklas/mlg/listeners/MenuListener.class
+com/spaceniklas/mlg/listeners/MlgListener.class
+com/spaceniklas/mlg/utils/MlgUtil$1.class
+com/spaceniklas/mlg/menus/MlgMenu.class

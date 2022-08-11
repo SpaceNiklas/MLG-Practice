@@ -1,0 +1,10 @@
+name: MLG
+version: '1.0'
+main: com.spaceniklas.mlg.Mlg
+api-version: 1.16
+authors: [ SpaceNiklas ]
+description: MLG is a plugin that allows you to practice MLG's!
+website: www.spaceniklas.com
+commands:
+  mlg:
+

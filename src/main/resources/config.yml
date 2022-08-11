@@ -1,0 +1,10 @@
+#MLG Config v1.0
+#You can adjust your MLG setting in this file!
+#If you want to change the items to clutch with use /mlg settings.
+
+#This is not on the Y coordinate this is just how amount of-
+#blocks you get teleported up from your current position!
+height-max: 75
+height-min: 25
+
+#If you have any additional suggestions don't hesitate to request them in the Discord Server (https://discord.gg/93DURaJxuf)!
