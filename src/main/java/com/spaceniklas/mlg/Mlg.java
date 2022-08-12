@@ -51,8 +51,15 @@ public final class Mlg extends JavaPlugin {
         }
 
         Mlg.clutchItems = YamlConfiguration.loadConfiguration(clutchItemsFile);
+        if(clutchItems.getList("clutch-items") != null) {
+            items = (List<String>) clutchItems.getList("clutch-items");
+        }
 
-        items = (List<String>) clutchItems.getList("clutch-items");
+        if(items == null){
+            items.add("WATER_BUCKET");
+            clutchItems.set("clutch-items", items);
+            items = (List<String>) clutchItems.getList("clutch-items");
+        }
         try {
             clutchItems.save(clutchItemsFile);
         } catch (IOException e) {
