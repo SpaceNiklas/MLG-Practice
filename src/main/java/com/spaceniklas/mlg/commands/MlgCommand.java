@@ -50,8 +50,10 @@ public class MlgCommand implements CommandExecutor {
                 sender.sendMessage(ChatColor.GRAY + "/mlg start - You get put in a loop and can clutch over and over again.");
                 sender.sendMessage(ChatColor.GRAY + "/mlg stop - Stops the loop.");
                 sender.sendMessage(ChatColor.GRAY + "/mlg help - Shows you a list of available commands.");
-            }else{
+            }else if(sender.hasPermission("mlg.mlg")){
                 sender.sendMessage(ChatColor.RED + "Command not recognised! Do /mlg help to see a full list of all commands!");
+            }else{
+                sender.sendMessage(ChatColor.RED + "You don't have the permission to access this command!");
             }
 
         }catch (CommandException x){
